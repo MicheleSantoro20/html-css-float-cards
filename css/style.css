@@ -17,19 +17,20 @@ h1 {
     color: #E53170;
     font-family: 'Fredoka', sans-serif;
 }
-.col {
+.col1, .col2 {
     height: 100px;
     width: calc(100% / 3 );
     border: red solid 1px;
     float: left;
     background-color: rgb(1, 1, 19);
+    padding: 10px;
 }
 .clearfix::after {
     clear: both;
     height: 10px;
 }
 
-.col img{
+.col1 img, .col2 img{
     height: 100%;
     float: left;
     margin-right: 15px;
