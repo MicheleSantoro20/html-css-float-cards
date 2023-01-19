@@ -34,9 +34,7 @@ h1 {
     float: left;
     margin-right: 15px;
 }
-.border{
 
-}
 span {
     color: white;
     font-family: 'Fredoka', sans-serif;
@@ -46,4 +44,7 @@ span {
 }
 strong {
     font-size: 20px;
+}
+.row {
+    margin-bottom: 100px;
 }
