@@ -17,13 +17,33 @@ h1 {
     color: #E53170;
     font-family: 'Fredoka', sans-serif;
 }
-.col1, .col2 {
+.col {
     height: 100px;
     width: calc(100% / 3 );
     border: red solid 1px;
     float: left;
+    background-color: rgb(1, 1, 19);
 }
 .clearfix::after {
     clear: both;
     height: 10px;
+}
+
+.col img{
+    height: 100%;
+    float: left;
+    margin-right: 15px;
+}
+.border{
+
+}
+span {
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    display: block;
+    vertical-align: middle;
+    padding-top: 7px;
+}
+strong {
+    font-size: 20px;
 }
