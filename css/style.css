@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, main{
+    margin: 2% 20%;
+}
+
+header h1, p {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 50px;
+    color: #E53170;
+    font-family: 'Fredoka', sans-serif;
+}
+.col1, .col2 {
+    height: 100px;
+    width: calc(100% / 3 );
+    border: red solid 1px;
+    float: left;
+}
+.clearfix::after {
+    clear: both;
+    height: 10px;
+}
