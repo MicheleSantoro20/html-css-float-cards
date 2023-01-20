@@ -8,7 +8,8 @@ main {
 }
 
 header, main{
-    margin: 40px 20%;
+    max-width: 1170px;
+    margin: auto;
 }
 
 header h1, p {
@@ -38,6 +39,7 @@ span {
     display: block;
     padding-top: 7px;
 }
+
 strong {
     font-size: 20px;
 }
@@ -47,11 +49,13 @@ strong {
     float: left;
     margin-right: 15px;
 }
+
 .card {
     background-color: rgb(1, 1, 19);
     height: 100px;
-    box-shadow: 2px 2px gray;
+    box-shadow: 2px 2px 2px 2px gray;
 }
+
 a {
     text-decoration: none;
     color: rgb(64, 170, 219);
